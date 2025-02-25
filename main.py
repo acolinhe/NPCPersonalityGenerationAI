@@ -125,6 +125,7 @@ def npc_personality_system() -> None:
 
 
 # Example NPCs with predefined personalities
+# comment
 npc_1 = Personality(openness=70, conscientiousness=50, agreeableness=60, neuroticism=40, extraversion=80)
 npc_2 = Personality(openness=30, conscientiousness=70, agreeableness=40, neuroticism=70, extraversion=20)
 game_world: Dict[str, Personality] = {
